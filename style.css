@@ -1,0 +1,239 @@
+.container-fluid{margin: 0px;}
+.entete{
+    display: flex;
+    width: 100%;
+    height: 40%;
+   flex-direction: row;
+   flex-wrap: wrap;
+
+}
+.adres{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.log{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background-image: url('logodelta.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 60px;
+}
+.cont{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.bg-light{
+   background-image: linear-gradient(to bottom, rgb(215, 215, 238),rgb(4, 22, 61)) !important;
+}
+/* .navbar-toggler-icon{
+    color: blue !important;
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.div1{
+    display: flex;
+    display: inline-block;
+width: 40%;
+height: 50%;
+
+   
+    text-align: justify;
+}
+.div2{ display: flex;
+    display: inline-block;
+    width: 40%;
+    height: 80%;
+    margin-left: 90px;
+    margin-top: 4em;
+    }
+    .div3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: visible;
+        margin-top: 2em;
+    width: 100%;
+    height: 12em;
+    background-image: linear-gradient(to bottom, rgb(93, 93, 134),rgb(0, 23, 71));
+justify-content: center;
+    
+    }
+    .div4{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: visible;
+      
+    width: 100%;
+    height: 12em;
+   background-color: white;
+justify-content: center;
+    
+    }
+    .div9{
+        display: flex;
+        display: inline-block;
+    width: 40%;
+    height: 50%;
+    
+       
+        text-align: justify;
+    }
+    .div6{ display: flex;
+        display: inline-block;
+        width: 40%;
+        height: 100%;
+        margin-left: 90px;
+        margin-top: 1em;
+        
+        }
+        .div7{ display: flex;
+            display: inline-block;
+            width: 40%;
+            height: 80%;
+            margin-left: 70px;
+            margin-top: 2em;
+            
+            }
+            .div5{
+                width:100%; 
+                height:20em;
+                background-image: linear-gradient(to bottom, rgb(93, 93, 134),rgb(0, 23, 71));
+                display:flex;
+                display:inline-block;
+           
+            
+             }
+             .div10{
+                 display:flex;
+                 width: 100%;
+                 height: 30em;
+                 background-image: url('projet.jpg');
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 justify-content: center;
+             }
+             .div11{
+                display:flex;
+                width: 100%;
+                height: 30em;
+                background-image: url('contact.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                justify-content: center;
+            }
+             .div5 .container{
+                 width:100%;
+                 height:70%;
+                
+                display:flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+              
+             justify-content: space-between;
+               
+             }
+             .div5 .container .box{
+                 /* position: relative; */
+                 width:15%;
+                 height: 100%;
+                 margin-top:3%;
+                 box-sizing:border-box;
+                 display: flex;
+                 display: inline-block;
+                 justify-content: center;    
+             }
+             .div5 .container .box .imgbox1{
+                 position: relative;
+                 width:100%;
+                 height:100%;
+                 background-image: url("ministère.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: flex;
+                justify-content: center;
+             }
+             .div5 .container .box .imgbox2{
+                 position: relative;
+                 width:100%;
+                 height:100%;
+                 background-image: url("sostem.jpg");
+                background-repeat: no-repeat;
+                background-size: contain; display: flex;
+                justify-content: center;
+             }
+             .div5 .container .box .imgbox3{
+                 position: relative;
+                 width:100%;
+                 height:100%;
+                 background-image: url("rose.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;display: flex;
+                justify-content: center;
+             }
+             .div5 .container .box .imgbox4{
+                 position: relative;
+                 width:100%;
+                 height:100%;
+                 background-image: url("esprit.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+             }.div5 .container .box .imgbox5{
+                 position: relative;
+                 width:100%;
+                 height:100%;
+                 background-image: url("manar.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+             }.div5 .container .box .imgbox6{
+                 position: relative;
+                 width:100%;
+                 height:100%;
+                 background-image: url("comarr.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+             }
+            #view11{
+                display:none;
+                width: 50%;
+                height:3em;
+                margin-top: 20%;
+            } 
+            .div12{
+                display:flex;
+                width: 50%;
+                height:20%;
+            }
+        
+            .cardcontain{
+                margin-top: 3%;
+                margin-left: 1%;
+                margin-right: 1%;
+                width:30%; 
+                height:45%;
+                display:flex;
+                display:inline-block;
+                
+            }
+            .card-img-top{
+                width: 100%;
+                height: 50%;
+            }
+        
